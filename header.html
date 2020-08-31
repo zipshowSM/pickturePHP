@@ -1,113 +1,162 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1" name="viewport">
-  <meta content="Arquito - 3D Architecture &amp; Interior HTML Template" name="description">
-  <meta content="Paul, Logan Cee, Mikhail Ojereliev" name="author">
-  <title>Arquito - 3D Architecture &amp; Interior HTML Template</title>
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Teko:300,400" rel="stylesheet">
-  <!--CSS-->
-  <link href="assets/css/icofont.min.css" rel="stylesheet">
-  <link href="assets/css/linearicons.min.css" rel="stylesheet">
-  <link href="assets/css/magnific-popup.min.css" rel="stylesheet">
-  <link href="assets/css/animsition.min.css" rel="stylesheet">
-  <link href="assets/css/swiper.min.css" rel="stylesheet">
-  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-  <!--Theme CSS-->
-  <link href="assets/css/theme.css" rel="stylesheet">
-  <link href="assets/css/responsive.css" rel="stylesheet">
-  <!--Favicons-->
-  <link href="img/logo.svg" rel="apple-touch-icon" sizes="180x180">
-  <link href="img/logo.svg" rel="icon" sizes="32x32" type="image/png">
-  <link href="img/logo.svg" rel="icon" sizes="16x16" type="image/png">
-  <link href="img/logo.svg" rel="manifest">
-  <link color="#5bbad5" href="../img/logo.svg" rel="mask-icon">
-  <link href="img/logo.svg" rel="shortcut icon">
-  <meta content="#da532c" name="msapplication-TileColor">
-  <meta content="favicons/browserconfig.xml" name="msapplication-config">
-  <meta content="#ffffff" name="theme-color">
-</head>
-
-<body class="page">
-<div style="display: none">
-  <!-- svg sprite-->
-  <svg style="width:0; height:0; visibility:hidden;" xmlns="http://www.w3.org/2000/svg">
-    <symbol id="icon_ion-icon-apps" viewBox="0 0 512 512">
-      <path d="M96 176h80V96H96v80zm120 240h80v-80h-80v80zm-120 0h80v-80H96v80zm0-120h80v-80H96v80zm120 0h80v-80h-80v80zM336 96v80h80V96h-80zm-120 80h80V96h-80v80zm120 120h80v-80h-80v80zm0 120h80v-80h-80v80z"/>
-    </symbol>
-  </svg>
-</div>
-<div class="page__inner animsition">
-  <!-- 헤더 영역 -->
-  <header class="header  header_fixed ">
-    <div class="header__container">
-      <div class="header__wrapper container-fluid">
-        <div class="header__inner">
-          <a class="logo header__logo" href="index.html"><img src="img/logo_black.svg" alt="Pickture logo" height="80px"></a>
-          <button class="header__menu-button" type="button">
-            <span class="header__menu-button-inner"></span>
-          </button>
-        </div>
-      </div>
-    </div>
-    <div class="header__overlay"></div>
-    <div class="menu-panel header__menu">
-      <div class="menu-panel__inner">
-        <button class="header__menu-button header__menu-button_fixed" type="button">
+<header class="header header_white header_fixed ">
+  <div class="header__container">
+    <div class="header__wrapper container-fluid">
+      <div class="header__inner">
+        <a class="logo header__logo" href="index.html"><img src="img/logo_black.svg" alt="Pickture logo" height="80px"></a>
+        <button class="header__menu-button" type="button">
           <span class="header__menu-button-inner"></span>
         </button>
-        <div class="menu-panel__locales">
-          <div class="menu-panel__locale link link link_active"></div>
-          <div class="menu-panel__locale link"></div>
-          <div class="menu-panel__locale link"></div>
-        </div>
-        <div class="menu-panel__menu">
-          <div class="menu-panel__menu-item">
-            <a class="menu-panel__menu-link collapsed" data-toggle="collapse" href="index.html">Home</a>
-          </div>
-          <div class="menu-panel__menu-item">
-            <a class="menu-panel__menu-link collapsed menu-panel__menu-link_active" data-toggle="collapse" href="news.html">News</a>          </div>
-          <div class="menu-panel__menu-item">
-            <a class="menu-panel__menu-link collapsed collapsed" data-toggle="collapse" href="#submenu3">Spot</a>
-            <div class="menu-panel__menu-list collapse" id="submenu3">
-              <div class="menu-panel__bottom-submenu">
-                <div class="menu-panel__submenu-item">
-                  <a class="menu-panel__submenu-link" href="news-grid.html">Movie</a>
+      </div>
+    </div>
+    <div class="header-full-page">
+      <!-- GNB -->
+      <div class="header-full-page__bottom container">
+        <ul class="top-menu header-full-page__menu">
+          <li class="top-menu__menu-item">
+            <div class="dropdown">
+              <a class="dropdown__trigger top-menu__menu-link" href="index.html">Home</a>
+          </li>
+          <li class="top-menu__menu-item">
+            <div class="dropdown">
+              <a class="dropdown__trigger top-menu__menu-link" href="news.html">News</a>
+            </div>
+          </li>
+          <li class="top-menu__menu-item">
+            <div class="dropdown">
+              <a class="dropdown__trigger top-menu__menu-link" href="spot.html">Spot</a>
+              <div class="dropdown__menu">
+                <div class="dropdown__column">
+                  <div class="dropdown__title">Movie</div>
+                  <div class="dropdown__item">
+                    <a class="dropdown__link" href="page-404.html" data-active="Movie">Action</a>
+                  </div>
+                  <div class="dropdown__item">
+                    <a class="dropdown__link" href="page-404.html">Classic</a>
+                  </div>
+                  <div class="dropdown__item">
+                    <a class="dropdown__link" href="page-404.html">Comedy</a>
+                  </div>
+                  <div class="dropdown__item">
+                    <a class="dropdown__link" href="page-404.html">Crime</a>
+                  </div>
+                  <div class="dropdown__item">
+                    <a class="dropdown__link" href="page-404.html">Drama</a>
+                  </div>
+                  <div class="dropdown__item">
+                    <a class="dropdown__link" href="page-404.html">Horror</a>
+                  </div>
+                  <div class="dropdown__item">
+                    <a class="dropdown__link" href="page-404.html">Romance</a>
+                  </div>
+                  <div class="dropdown__item">
+                    <a class="dropdown__link" href="page-404.html">Thriller</a>
+                  </div>
                 </div>
-                <div class="menu-panel__submenu-item">
-                  <a class="menu-panel__submenu-link" href="news-listing.html">Tv</a>
+                <div class="dropdown__column">
+                  <div class="dropdown__title">TV</div>
+                  <div class="dropdown__item">
+                    <a class="dropdown__link" href="page-404.html">Drama</a>
+                  </div>
+                  <div class="dropdown__item">
+                    <a class="dropdown__link" href="page-404.html">Documentary</a>
+                  </div>
+                  <div class="dropdown__item">
+                    <a class="dropdown__link" href="page-404.html">Entertainment</a>
+                  </div>
                 </div>
-                <div class="menu-panel__submenu-item">
-                  <a class="menu-panel__submenu-link" href="news-masonry.html">Location</a>
+                <div class="dropdown__column">
+                  <div class="dropdown__title">Location</div>
+                  <div class="dropdown__item">
+                    <a class="dropdown__link" href="page-404.html">Seoul/Incheon</a>
+                  </div>
+                  <div class="dropdown__item">
+                    <a class="dropdown__link" href="page-404.html">Chungcheong-do</a>
+                  </div>
+                  <div class="dropdown__item">
+                    <a class="dropdown__link" href="page-404.html">Gangwon-do</a>
+                  </div>
+                  <div class="dropdown__item">
+                    <a class="dropdown__link" href="page-404.html">Gyeonggi-do</a>
+                  </div>
+                  <div class="dropdown__item">
+                    <a class="dropdown__link" href="page-404.html">Gyeongsang-do</a>
+                  </div>
+                  <div class="dropdown__item">
+                    <a class="dropdown__link" href="page-404.html">Jeolla-do</a>
+                  </div>
+                  <div class="dropdown__item">
+                    <a class="dropdown__link" href="page-404.html">Jeju Island</a>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="menu-panel__menu-item">
-            <a class="menu-panel__menu-link collapsed menu-panel__menu-link" data-toggle="collapse" href="contact.html">Contact</a>
+          </li>
+          <li class="top-menu__menu-item">
+            <div class="dropdown">
+              <a class="dropdown__trigger top-menu__menu-link" href="contact.html">Contact</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="header__overlay"></div>
+  <div class="menu-panel header__menu">
+    <div class="menu-panel__inner">
+      <button class="header__menu-button header__menu-button_fixed" type="button">
+        <span class="header__menu-button-inner"></span>
+      </button>
+      <div class="menu-panel__locales">
+        <div class="menu-panel__locale link link link_active"></div>
+        <div class="menu-panel__locale link"></div>
+        <div class="menu-panel__locale link"></div>
+      </div>
+      <div class="menu-panel__menu">
+        <div class="menu-panel__menu-item">
+          <a class="menu-panel__menu-link menu-panel__menu-link menu-panel__menu-link_active" data-toggle="collapse" href="#submenu1">Home</a>
+        </div>
+        <div class="menu-panel__menu-item">
+          <a class="menu-panel__menu-link collapsed" data-toggle="collapse" href="news.html">News</a>
+        </div>
+        <div class="menu-panel__menu-item">
+          <a class="menu-panel__menu-link collapsed collapsed" data-toggle="collapse" href="#submenu3">Spot</a>
+          <div class="menu-panel__menu-list collapse" id="submenu3">
+            <div class="menu-panel__bottom-submenu">
+              <div class="menu-panel__submenu-item">
+                <a class="menu-panel__submenu-link" href="spot.html" data-active="Movie">Movie</a>
+              </div>
+              <div class="menu-panel__submenu-item">
+                <a class="menu-panel__submenu-link" href="spot.html" data-active="Tv">Tv</a>
+              </div>
+              <div class="menu-panel__submenu-item">
+                <a class="menu-panel__submenu-link" href="spot.html" data-active="Location">Location</a>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="menu-panel__footer">
-          <div class="socials menu-panel__socials">
-            <a class="socials__social icofont-twitter" href="#">
-              <div class="visually-hidden">twitter</div>
-            </a>
-            <a class="socials__social icofont-facebook" href="#">
-              <div class="visually-hidden">facebook</div>
-            </a>
-            <a class="socials__social icofont-google-plus" href="#">
-              <div class="visually-hidden">google plus</div>
-            </a>
-          </div>
-          <div class="menu-panel__bottom">
-            <div class="menu-panel__copyright">© 2020
-              <strong>Zipshowkorea.</strong>
-              All Rights Reserved.
-            </div>
+        <div class="menu-panel__menu-item">
+          <a class="menu-panel__menu-link collapsed collapsed" data-toggle="collapse" href="contact.html">Contact</a>
+        </div>
+      </div>
+      <div class="menu-panel__footer">
+        <div class="socials menu-panel__socials">
+          <a class="socials__social icofont-twitter" href="page-404.html">
+            <div class="visually-hidden">twitter</div>
+          </a>
+          <a class="socials__social icofont-facebook" href="page-404.html">
+            <div class="visually-hidden">facebook</div>
+          </a>
+          <a class="socials__social icofont-google-plus" href="page-404.html">
+            <div class="visually-hidden">google plus</div>
+          </a>
+        </div>
+        <div class="menu-panel__bottom">
+          <div class="menu-panel__copyright">© 2020
+            <strong>Zipshowkorea.</strong>
+            All Rights Reserved.
           </div>
         </div>
       </div>
     </div>
-  </header>
+  </div>
+</header>

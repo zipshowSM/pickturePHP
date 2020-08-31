@@ -36,230 +36,145 @@
 </head>
 
 <body class="page">
-< class="page__inner animsition">
-
-    <!-- header -->
-    <? include "header.html"; ?>
-    
-    <main>
-        <div class="single-post">
-          <div class="parallax-image single-post__head">
-            <div class="parallax-image__image" data-rellax-percentage="0.5" data-rellax-speed="-3" style="background-image: url('img/hapcheon1.png'); background-size: auto 100%; background-repeat: no-repeat;background-position: (50%, 50%);"></div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-lg-8 offset-lg-2">
-                <div class="single-post__header">
-                  <a class="single-post__category" href="#">합천영상테마파크</a>
-                  <div class="single-post__date">Aug 28, 2020</div>
-                </div>
-                <div class="single-post__title">합천에서 유명한 관광지,<br/>합천영상테마파크를 소개합니다.</div>
-                <div class="single-post__intro">
-                  <strong>천년의 문화, 깨끗한 자연이 어우러진 곳,</strong>
-                  <strong>합천영상테마파크</strong>
-                </div>
-                <div class="single-post__text">
-                  <p>
-                    <strong class="single-post__text_title">
-                      ◎ 다수의 유명한 영화와 드라마의 촬영세트장
-                    </strong>
-                  </p>
-                  <p>
-                    합천에서 유명한 관광지를 뽑자면 다섯손가락 안에드는 곳이 '합천영상테마파크'입니다.
-                    사람의 손으로 만든 인공의 테마파크가 관광객들에게 인기가 있는 이유는 다수의 유명한 영화와 드라마의 촬영 세트장이기 때문입니다.
-                    유명한 작품으로는 영화 <태극기 휘날리며>, <써니>, <변호인>, <전우치> 등이 있고, 드라마는 <각시탈>, <빛과 그림자>, <에덴의 동쪽> 등등 수도없이 많습니다.
-                    <br/><br/>
-                    평소 인상깊게 보았던 영화나 드라마 속의 배경을 눈으로 직접 볼 수도 있고, 1920년대부터 1980년대 서울의 옛 모습을 그대로 재현해 놓은 곳이라 타임머신을 타고 '시간 속으로의 여행'하는 것 같아 관광객이 많이 찾는 곳입니다.
-                    이 소식지에서는 합천영상테마파크에서 유명한 몇 곳을 선정하여 소개하도록 하겠습니다.
-                  </p>
-                </div>
-                <div class="single-post__text">
-                  <p>
-                    <strong class="single-post__text_title">
-                      1. 적산가옥 거리
-                    </strong>
-                  </p>
-                  <img src="img/hapcheon2.png" alt="적산옥 거리">
-                  <p>
-                    적산가옥(敵産家屋)이란 '점령지에 있는 적국의 재산'을 뜻하는데 1920년대 일제시대 때 용산, 군산, 포항 등지에 많았던 일본식 목조건물인 '적산가옥'의 거리를 재현해 놓은 곳입니다.
-                    마치 일본의 어느 마을에 온 듯 '일본답게' 꾸며놓아 일본에서도 견학, 촬영으로 이곳을 자주 찾는다고 합니다.
-                  </p>
-                  <a href="#">자세히 보러가기</a>
-                </div>
-                <div class="single-post__text">
-                  <p>
-                    <strong class="single-post__text_title">
-                      2. 대흥극장
-                    </strong>
-                  </p>
-                  <img src="img/hapcheon3.png" alt="대흥극장">
-                  <p>
-                    옛 영화나 드라마에서 배우들의 극장 장면을 거의 대부분 책임진 이곳은 대흥극장입니다.
-                    대표적으로 영화 <장군의 아들>에서 박상민이 이곳 앞에서 이야기하기도 하고 싸우기도 했던 곳입니다.
-                  </p>
-                  <p>
-                    대부분의 건물은 안으로 들어가 볼 수 없으나 대흥극장 안에는 옛 영화 포스터를 전시해놓고, 쉴 공간도 마련되어 있습니다.
-                    게다가 특별한 행사가 있을 때에는 극장이라는 이름에 걸맞게 3D 영상을 감상 할 수 있는 공간도 마련되어 있어 체험이 가능합니다.
-                  </p>
-                  <a href="#">자세히 보러가기</a>
-                </div>
-                <div class="single-post__text">
-                  <p>
-                    <strong class="single-post__text_title">
-                      3. 기차 전시장
-                    </strong>
-                  </p>
-                  <img src="img/hapcheon4.png" alt="기차 전시장">
-                  <p>
-                    이곳은 기차를 타고 떠나는 장면을 많이 촬영했을 것으로 예상 되는 장소입니다.
-                    언뜻 보면 영화 <태극기 휘날리며>에서 나왔던 피난장면에서 본 것 같기도 하네요.
-                    기차 안 쪽까지 구경할수 있어 들어가보면 나무로 짜인 정다운 옛 기차의 모습을 그대로 재현해 두었습니다.
-                  </p>
-                  <a href="#">자세히 보러가기</a>
-                </div>
-            <div class="row">
-              <div class="col-12 col-lg-8 offset-lg-2">
-                <div class="single-post__links">
-                  <div class="single-post__links-title">Tags:</div>
-                  <a class="single-post__links-item" href="#">경상도</a>
-                  ,
-                  <a class="single-post__links-item" href="#">합천</a>
-                  ,
-                  <a class="single-post__links-item" href="#">합천영상테마파크</a>
-                  ,
-                  <a class="single-post__links-item" href="#">태극기 휘날리며</a>
-                  ,
-                  <a class="single-post__links-item" href="#">써니</a>
-                  ,
-                  <a class="single-post__links-item" href="#">변호인</a>
-                  ,
-                  <a class="single-post__links-item" href="#">전우치</a>
-                  ,
-                  <a class="single-post__links-item" href="#">각시탈</a>
-                  ,
-                  <a class="single-post__links-item" href="#">빛과 그림자</a>
-                  ,
-                  <a class="single-post__links-item" href="#">에덴의 동쪽</a>
-                </div>
-                <div class="single-post__links">
-                  <div class="single-post__links-title">Share:</div>
-                  <a class="single-post__links-item single-post__links-item_iconed icofont-facebook" href="#">
-                    <div class="visually-hidden">Facebook</div>
-                  </a>
-                  <a class="single-post__links-item single-post__links-item_iconed icofont-twitter" href="#">
-                    <div class="visually-hidden">Twitter</div>
-                  </a>
-                  <a class="single-post__links-item single-post__links-item_iconed icofont-pinterest" href="#">
-                    <div class="visually-hidden">Pinterest</div>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="person-block single-post__author">
-              <img alt="" class="person-block__image" src="../img/editor.svg" alt="픽쳐 에디터 프로필 사진"/>
-              <div class="person-block__content">
-                <div class="person-block__name">ⓒ픽쳐 에디터</div>
-                <div class="person-block__text">zipshowkorea@gmail.com (오타 신고/제보 및 보도자료)
-                </div>
-                <div class="person-block__share">
-                  <a class="person-block__share-item" href="#">facebook</a>
-                  -
-                  <a class="person-block__share-item" href="#">twitter</a>
-                  -
-                  <a class="person-block__share-item" href="#">pinterest</a>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-12 col-lg-8 offset-lg-2">
-                <div class="single-post__posts-title heading-smallest">Other News</div>
-              </div>
-            </div>
-            <div class="single-post__posts-list">
-              <div class="single-post__posts-item">
-                <div class="article-item">
-                  <a class="article-item__image-wrapper" href="news_detail1.html">
-                    <img src="https://mimgnews.pstatic.net/image/022/2015/08/12/20150812002078_0_99_20150812152104.jpg?type=w540" alt="인천상륙작전 리암 니슨 스틸컷"/>
-                  </a>
-                  <a class="article-item__item-title" href="news_detail1.html">'인천상륙작전', 리암 니슨 합천에서 촬영했다.</a>
-                  <div class="article-item__item-footer">
-                    <a class="article-item__category" href="#">인천상륙작전</a>
-                    <div class="article-item__date">Aug 27, 2020</div>
-                  </div>
-                </div>
-              </div>
-              <div class="single-post__posts-item">
-                <div class="article-item">
-                  <a class="article-item__image-wrapper" href="news_detail2.html">
-                    <img src="https://img1.daumcdn.net/thumb/S560x400/?scode=1boon&fname=https://t1.daumcdn.net/liveboard/feelthemovie/ec2227774b39435f9a8848bb67b667d5.JPG" alt="곡성 황정민 스틸컷"/>
-                  </a>
-                  <a class="article-item__item-title" href="news_detail2.html">진짜 신내림 받을까봐 무당들이 지속 관찰했다는 스타</a>
-                  <div class="article-item__item-footer">
-                    <a class="article-item__category" href="#">곡성</a>
-                    <div class="article-item__date">Sep 2, 2019</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="comments">
-            <div class="container">
-              <div class="row">
-                <div class="col-12 col-lg-8 offset-lg-2">
-                  <div class="comments__title heading-smallest">02 comments</div>
-                  <div class="comments__list">
-                    <div class="comment-card">
-                      <img alt="" class="comment-card__image" src="../img/comment-avatar-1.jpg"/>
-                      <div class="comment-card__content">
-                        <div class="comment-card__head">
-                          <div class="comment-card__name">Daniel Vandaft</div>
-                          <div class="comment-card__date">- Jul 17, 2019 at</div>
-                          <div class="comment-card__duration">15 hours ago</div>
-                        </div>
-                        <div class="comment-card__text">Comment example here. Nulla risus lacus, vehicula id mi vitae, auctor accumsan nulla. Sed a mi quam. Lorem In euismod urna ac massa adipiscing
-                          interdum.
-                        </div>
-                        <a class="comment-card__link" href="#">Reply</a>
-                      </div>
-                    </div>
-                    <div class="comment-card">
-                      <img alt="" class="comment-card__image" src="../img/comment-avatar-2.jpg"/>
-                      <div class="comment-card__content">
-                        <div class="comment-card__head">
-                          <div class="comment-card__name">Daniel Vandaft</div>
-                          <div class="comment-card__date">- Jul 17, 2019 at</div>
-                          <div class="comment-card__duration">20 hours ago</div>
-                        </div>
-                        <div class="comment-card__text">Comment example here. Nulla risus lacus, vehicula id mi vitae, auctor accumsan nulla. Sed a mi quam. Lorem In euismod urna ac massa adipiscing
-                          interdum.
-                        </div>
-                        <a class="comment-card__link" href="#">Reply</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="comments__title heading-smallest">leave a comment</div>
-                  <form>
-                    <div class="row">
-                      <div class="col-12 col-lg-6">
-                        <input class="comments__input-text" name="name" placeholder="Name" type="text"/>
-                      </div>
-                      <div class="col-12 col-lg-6">
-                        <input class="comments__input-text" name="email" placeholder="Email" type="text"/>
-                      </div>
-                      <div class="col-12">
-                        <input class="comments__input-text" name="subject" placeholder="Subject (Optinal)" type="text"/>
-                      </div>
-                      <div class="col-12">
-                        <textarea class="comments__input-textarea" name="message" placeholder="Message"></textarea>
-                        <button class="comments__submit">Post Comment</button>
-                      </div>
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
+<div class="page__inner animsition">
+  <!-- 헤더 영역 -->
+  <? include "header.html"; ?>
+  <!-- 메인 콘텐츠 -->
+  <main>
+    <div class="heading-default heading-default heading-default_context_default">
+      <div class="container">
+        <div class="heading-default__title">Hot 한 영화와 드라마의 소식을 전해드립니다.</div>
+        <ul class="heading-default__breadcrumbs">
+          <li class="heading-default__breadcrumb-item">
+            <a class="heading-default__breadcrumb-link" href="#">Home</a>
+          </li>
+          <li class="heading-default__breadcrumb-item">News</li>
+        </ul>
+      </div>
+    </div>
+    <div class="masonry articles-list-wrapper">
+      <div class="container">
+        <div class="articles-list-wrapper__head">
+          <div class="articles-list-wrapper__filter">
+            <button class="masonry__secondary-filter-button masonry__secondary-filter-button_active" data-filter="*" type="button">All</button>
+            <button class="masonry__secondary-filter-button" data-filter="News" type="button">News</button>
+            <button class="masonry__secondary-filter-button" data-filter="Review" type="button">Review</button>
+            <button class="masonry__secondary-filter-button" data-filter="Movie" type="button">Movie</button>
+            <button class="masonry__secondary-filter-button" data-filter="Drama" type="button">Drama</button>
+            <button class="masonry__secondary-filter-button" data-filter="Spot" type="button">Spot</button>
           </div>
         </div>
-      </main>
+        <div class="articles-list masonry__grid">
+          <div class="articles-list__item masonry__item">
+            <a class="article-listing-item" data-filters="Spot, News" href="news/hapcheonIntro.html">
+              <div class="article-listing-item__cover">
+                <div class="article-listing-item__cover-image" style="background-image: url(news/img/hapcheon1.JPG)"></div>
+              </div>
+              <div class="article-listing-item__content">
+                <div class="article-listing-item__header">
+                  <div class="article-listing-item__category">합천영상테마파크</div>
+                  <div class="article-listing-item__date">Aug 28, 2020</div>
+                </div>
+                <div class="article-listing-item__title">합천에서 유명한 관광지, 합천영상테마파크를 소개합니다.</div>
+                <div class="article-listing-item__text">
+                  천년의 문화, 깨끗한 자연이 어우러진 곳, 합천영상테마파크
+                  ◎ 다수의 유명한 영화와 드라마의 촬영세트장
+                  합천에서 유명한 관광지를 뽑자면 다섯손가락 안에드는 곳이 '합천영상테마파크'입니다. 사람의 손으로 만든 인공의 테마파크가 관광객들에게 인기가 있는 이유는 다수의 유명한 영화와 드라마의 촬영 세트장이기 때문입니다. 유명한 작품으로는 영화 <태극기 휘날리며>, <써니>, <변호인>, <전우치> 등이 있고, 드라마는 <각시탈>, <빛과 그림자>, <에덴의 동쪽> 등등 수도없이 많습니다.
+                </div>
+                <div class="article-listing-item__continue">Continue
+                  <span class="article-listing-item__continue-icon icofont-rounded-right"></span>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="articles-list__item masonry__item">
+            <a class="article-listing-item" data-filters="Movie" href="news/news_detail1.html">
+              <div class="article-listing-item__cover">
+                <div class="article-listing-item__cover-image" style="background-image: url(https://mimgnews.pstatic.net/image/022/2015/08/12/20150812002078_0_99_20150812152104.jpg?type=w540)"></div>
+              </div>
+              <div class="article-listing-item__content">
+                <div class="article-listing-item__header">
+                  <div class="article-listing-item__category">인천상륙작전</div>
+                  <div class="article-listing-item__date">Aug 27, 2020</div>
+                </div>
+                <div class="article-listing-item__title">'인천상륙작전', 리암 니슨 합천에서 촬영했다.</div>
+                <div class="article-listing-item__text">헐리웃 배우 리암 니슨이 출연한 인천상륙작전은 경남에 위치한 합천영상테마파크의 소공동 거리에서 촬영되었다.
+                  헐리웃 배우 리암 니슨이 맥아더 장군으로 출연한 영화 "인천상륙작전"은 경남에 위치한 합천영상테마파크에서 촬영되었다.
+                  '인천상륙작전'은 인천상륙작전의 발판이 된 일명 X-RAY 첩보작전과 팔미도 작전을 그...
+                </div>
+                <div class="article-listing-item__continue">Continue
+                  <span class="article-listing-item__continue-icon icofont-rounded-right"></span>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="articles-list__item masonry__item">
+            <a class="article-listing-item" data-filters="News, Movie" href="news/news_detail2.html">
+              <div class="article-listing-item__cover">
+                <div class="article-listing-item__cover-image" style="background-image: url(https://img1.daumcdn.net/thumb/S560x400/?scode=1boon&fname=https://t1.daumcdn.net/liveboard/feelthemovie/ec2227774b39435f9a8848bb67b667d5.JPG)"></div>
+              </div>
+              <div class="article-listing-item__content">
+                <div class="article-listing-item__header">
+                  <div class="article-listing-item__category">곡성</div>
+                  <div class="article-listing-item__date">Aug 25, 2020</div>
+                </div>
+                <div class="article-listing-item__title">진짜 신내림 받을까봐 무당들이 지속 관찰했다는 스타</div>
+                <div class="article-listing-item__text">1.원래 일광역은 류승룡으로 생각<br/>
+                  나홍진 감독은 처음 <곡성>을 기획했을 당시에 일광역의 배우로 류승룡을 염두에 두고 있었다. 그러다 시나리오 작성을 위해 속초의 한 숙소에 도착해 티브이를 보다가 <신세계>를 보게 되었는데, 그 장면에서 나온 황정민의 모습이 너무 인상적 이어서 그를 일광으로 해야겠다고 결정했다. 참고로...
+                </div>
+                <div class="article-listing-item__continue">Continue
+                  <span class="article-listing-item__continue-icon icofont-rounded-right"></span>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="articles-list__item masonry__item">
+            <a class="article-listing-item" data-filters="Movie, Review" href="page-404.html">
+              <div class="article-listing-item__cover">
+                <div class="article-listing-item__cover-image" style="background-image: url(https://img1.daumcdn.net/thumb/R720x0/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fliveboard%2Fmaxmovie%2Feb327de771b742c8aa659e63a4fec0ce.JPG)"></div>
+              </div>
+              <div class="article-listing-item__content">
+                <div class="article-listing-item__header">
+                  <div class="article-listing-item__category">나를 구하지 마세요</div>
+                  <div class="article-listing-item__date">Sep 6, 2019</div>
+                </div>
+                <div class="article-listing-item__title">대구 모자 사망 사건이 스크린으로…</div>
+                <div class="article-listing-item__text">아이들은 솔직하다. 어른들처럼 자신의 감정을 숨기지 않고 그대로 표현한다. 슬프면 슬픈대로, 기쁘면 기쁜대로, 자신의 감정에 솔직한 것이 아이들이다. 너무나도 일찍 어른이 된 아이가 있다. 자신의 감정을 숨기고 아프고 슬프지만 괜찮다고 한다. 그리고 제발 자신을 구하지 말아 달라고 부탁한다. 사실은 그 누구라도 구해주길 바라지만 반대로 말한다.
+                </div>
+                <div class="article-listing-item__continue">Continue
+                  <span class="article-listing-item__continue-icon icofont-rounded-right"></span>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="articles-list__item masonry__item">
+            <a class="article-listing-item" data-filters="Drama" href="page-404.html">
+              <div class="article-listing-item__cover">
+                <div class="article-listing-item__cover-image" style="background-image: url(https://img1.daumcdn.net/thumb/R720x0/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fliveboard%2Factorlovers%2F2555e24f822546ca82d6125e18f674cd.png)"></div>
+              </div>
+              <div class="article-listing-item__content">
+                <div class="article-listing-item__header">
+                  <div class="article-listing-item__category">보건교사 안은영</div>
+                  <div class="article-listing-item__date">Sep 2, 2019</div>
+                </div>
+                <div class="article-listing-item__title">자꾸만 보게 되는 정유미 남주혁 새 드라마 티저</div>
+                <div class="article-listing-item__text">만덕이가 여태껏 보지 못한(?) 신선한 티저를 소개하려고 함ㅋㅋ바로 '보건교사 안은영' 티저임!!!(정말 어디서도 보지 못한 신선함임ㅋㅋ)정유미X남주혁이 주연을 맡아 화제가 된 이 드라마는!!(포스터부터 알록달록하니 영롱~~)다들 알겠지만 정세랑 작가의 원작 소설 '보건교사 안은영'을 드라마화 한 거임!!
+                  
+                  
+                </div>
+                <div class="article-listing-item__continue">Continue
+                  <span class="article-listing-item__continue-icon icofont-rounded-right"></span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="articles-list-wrapper__loader">..loading...</div>
+      </div>
+    </div>
+  </main>
+  <!-- 푸터 영역 -->
+</body>
 
-      <!-- footer -->
+</html>
+v
